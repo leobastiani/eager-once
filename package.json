@@ -1,7 +1,7 @@
 {
   "name": "@leobastiani/eager-once",
   "private": false,
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "like once but with eager loading",
   "repository": {
     "type": "git",
@@ -14,7 +14,8 @@
     "test": "node --test index.test.js"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "index.d.ts"
   ],
   "exports": "./index.js",
   "sideEffects": false,
@@ -26,6 +27,7 @@
     "single",
     "cached"
   ],
+  "types": "./index.d.ts",
   "devDependencies": {
     "@types/node": "^20.14.10"
   }

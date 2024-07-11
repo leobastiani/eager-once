@@ -4,7 +4,7 @@
 const setups = [];
 
 /** @type {Set<() => void>} */
-export const resets = new Set();
+const resets = new Set();
 
 function resetAll() {
   for (const fn of resets) {
